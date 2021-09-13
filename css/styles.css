@@ -1,0 +1,173 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.greeting {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  padding: 50px 0 0 10px;
+  margin: 0;
+}
+
+.section-header {
+  font-size: 3rem;
+}
+
+/* Title Section */
+#title .container-fluid {
+  height: 600px;
+  text-align: left;
+  padding: 3% 15%;
+}
+
+.download-btn {
+  margin-right: 15px;
+}
+
+.action-buttons {
+  margin: 40px 0 0 10px;
+}
+
+.iphone-img {
+  width: 60%;
+  position: relative;
+  top: 12%;
+  left: 15%;
+  transform: rotate(20deg);
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.features-icon {
+  color: #ef8172;
+  padding: 20px;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-header {
+  font-size: 1.5rem;
+}
+
+.features-description {
+  color: #8f8f8f;
+  display: inline-block;
+  width: 90%;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Call To Action Section */
+#cta h3 {
+  font-size: 2.5rem;
+  width: 80%;
+  margin: auto;
+}
+
+.cta-download-btn {
+  margin: 60px 30px 0 0;
+}
+
+/* Footer Section */
+#footer {
+  color: #8f8f8f;
+}
+
+.social-media-btn {
+  border: none;
+  background-color: #fff;
+  color: #444;
+  margin: 0 5px 15px;
+}
+
+.social-media-btn:hover {
+  color: #8f8f8f;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+    /*This is absolute rotation, that returns an element to its original position*/
+  }
+}
